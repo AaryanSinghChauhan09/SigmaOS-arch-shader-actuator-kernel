@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-actuator-kernel"
+name = "sigmaos-arch-shader-actuator-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-actuator-kernel component - Inspired by Arch Linux and Debian"
+description = "Actuator shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-actuator-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_actuator_kernel"
+path = "src/lib.rs"
